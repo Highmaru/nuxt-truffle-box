@@ -2,7 +2,7 @@
   "name": "nuxt-truffle-box",
   "version": "1.0.0",
   "description": "Truffle template for nuxt.js",
-  "author": "David, Shin",
+  "author": "David, Shin <dhshin@highmaru.com>",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
@@ -10,24 +10,28 @@
     "start": "cross-env NODE_ENV=production node server/index.js",
     "generate": "nuxt generate",
     "compile": "truffle compile",
-    "migrate": "truffle migrate --reset"
+    "migrate": "truffle migrate --reset",
+    "new:contract": "truffle create contract"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.3",
     "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.0.0-rc.11",
-    "cross-env": "^5.2.0",
     "express": "^4.16.4",
-    "nuxt": "^2.2.0"
+    "nuxt": "^2.2.0",
+    "openzeppelin-solidity": "^2.0.0",
+    "web3": "^1.0.0-beta.36",
+    "web3-eth-abi": "^1.0.0-beta.36"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-prettier": "2.6.2",
     "nodemon": "^1.11.0",
     "prettier": "1.14.3"
   },
   "truffle": {
-    "tokenAddress": "0xd5a9229182a52b11f163bd24bbe9745b0df4687a",
+    "tokenAddress": "0x818f9be97d52b27bb1b564e7413ea6b5559af067",
     "host": "http://localhost:8545"
   }
 }

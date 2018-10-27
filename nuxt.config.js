@@ -48,7 +48,9 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{
+    src: '@/plugins/web3'
+  }],
 
   /*
    ** Nuxt.js modules

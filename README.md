@@ -4,7 +4,19 @@
 
 ## Build Setup
 
-``` bash
+```bash
+# create new Contract
+$ yarn new:contract <your contract>
+
+# compile truffle
+$ yarn compile
+
+Start Ganache!
+
+# migrate truffle
+$ yarn migrate
+
+After migration successful, copy contract address from Ganache and paste it to package.json->truffle->tokenAddress
 # install dependencies
 $ yarn install
 
