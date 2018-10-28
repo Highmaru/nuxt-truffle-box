@@ -31,7 +31,7 @@
     "prettier": "1.14.3"
   },
   "truffle": {
-    "tokenAddress": "0x818f9be97d52b27bb1b564e7413ea6b5559af067",
+    "tokenAddress": "0x9b52c047742fb989219dd9c8cb12ad67a387b0f4",
     "host": "http://localhost:8545"
   }
 }
