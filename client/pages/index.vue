@@ -55,7 +55,7 @@ export default {
 		async transfer() {
 			this.transferReceipt = await this.$store.dispatch('eip20/transfer', {
 				to: this.recipentAddress,
-				value: parseInt(this.amount)
+				value: parseInt(this.amount*10)
 			})
 		}
 	}
